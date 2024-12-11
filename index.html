@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>:: Home ::</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html">
+<img class="logo" src="images/your.png" alt="logo">
+</a>
+            </div>
+            <img id="toggle-menu" src="images/toggle.svg" alt="toggle">
+            <div class="nav-bar">
+                <div class="logo desk-hide">
+                            <img id="close_btn" src="images/close.svg" alt="close">
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Services <img class="down-arrow" src="images/down.svg" alt=""></a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    UK + EU Brand Launch
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    eBay Consulting
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Shopify Integrations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Shopify Integrations
+                                </a>
+                            </li>
+                         
+                            <li>
+                                <a href="#">
+                                    International Marketplaces
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Resources <img class="down-arrow" src="images/down.svg" alt=""></a>
+                        <ul>
+                            <li>
+                                <a target="_blank" href="images/The Essential Guide to Building a Successful Multi Channel Online Business.pdf" download>
+                                    Download Our Book
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+Podcast
+                                </a>
+                            </li>
+ 
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="full-wrapper">
+         <a href="#why-section"><img class="full-img" src="images/exceed-banner.svg" alt=""></a>
+        </div>
+    </section>
+    <div class="wrapper">
+        <section>
+            <div class="why-section">
+                <h2 id="why-section">Why Choose Us?</h2>
+                         <ul>
+                    <li>Expertise in launching and scaling brands globally.</li>
+                    <li>Tailored strategies for European marketplaces.</li>
+                    <li>Comprehensive support for operations, logistics, and marketing.</li>
+                </ul>
+                <p>Take your first step toward global success. <strong><a href="#contact">Get Started Today</a></strong></p>
+            </div>
+
+        </section>
+        <section>
+            <h2>About Us</h2>
+            <h3>Who We Are</h3>
+            <p>We are your trusted partner for launching Indian brands in the UK and Europe. With deep insights into
+                local markets, consumer behavior, and platform-specific requirements, we ensure your products reach the
+                right audience, the right way.</p>
+            <p>Our mission is to bridge the gap between India's rich heritage and Europe's dynamic consumer base,
+                empowering businesses to scale beyond borders.</p>
+        </section>
+
+        <section>
+            <h2>Our Services</h2>
+            <ol>
+                <li><strong>Multi-Channel Marketplace Management</strong>: We help you list, manage, and optimize your
+                    products on leading marketplaces like Zalando, Amazon, eBay, and more.</li>
+                <li><strong>Shopify Store Development</strong>: Build a seamless, high-converting e-commerce store with
+                    our Shopify experts.</li>
+                <li><strong>Operations & Logistics Support</strong>: From inventory management to fulfillment, we
+                    streamline your operations using tools like Linnworks.</li>
+                <li><strong>Marketing & SEO Strategies</strong>: Increase your brand’s visibility with localized
+                    marketing campaigns, targeted ads, and platform-optimized SEO strategies.</li>
+                <li><strong>Compliance & Localization</strong>: We guide you through the complexities of local
+                    regulations, taxes, and marketplace requirements.</li>
+                <li><strong>Customer Support Solutions</strong>: Delight your European customers with localized, prompt,
+                    and professional customer support services.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Why Work With Us?</h2>
+            <h3>Our Edge:</h3>
+            <ul>
+                <li>Localized Expertise: In-depth knowledge of the UK and European markets.</li>
+                <li>All-in-One Solutions: From store setup to logistics, we handle it all.</li>
+                <li>Tech-Driven Approach: Utilizing cutting-edge tools like Linnworks and Shopify for seamless
+                    operations.</li>
+                <li>Proven Strategies: Tried and tested methods to maximize your ROI.</li>
+                <li>Personalized Support: Dedicated account managers to guide you every step of the way.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Industries We Serve</h2>
+            <ul>
+                <li>Fashion & Apparel</li>
+                <li>Home & Lifestyle</li>
+                <li>Jewelry & Accessories</li>
+                <li>Beauty & Personal Care</li>
+                <li>Food & Beverages</li>
+            </ul>
+        </section>
+
+
+        <section id="contact" class="cta">
+            <h2>Contact Us</h2>
+            <p>Ready to Scale Your Brand Globally?</p>
+            <p>Let’s discuss how we can help you achieve success in the UK and European markets.</p>
+            <p>Email: <a href="mailto:support@yourbrandglobal.com">support@yourbrandglobal.com</a></p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Address: Your Business Location, India</p>
+            <p><a href="#">Book a Free Consultation</a></p>
+        </section>
+
+
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Brand Global. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#toggle-menu, #close_btn").click(function () {
+                $(".nav-bar").animate({
+                    width: "toggle"
+                });
+            });
+            // $('body').click(function () {
+            //     $(".nav-bar").animate({
+            //         width: "toggle"
+            //     });
+            // });
+
+            $('.nav-bar, #toggle-menu').click(function (event) {
+                event.stopPropagation();
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>
